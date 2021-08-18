@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Bioinformatics researcher. Currently at Bioinformatics Institute, Seoul National University, South Korea.
 
 profile:
   align: right
