@@ -2,7 +2,7 @@
 layout: distill
 title: AlphaFold2 톺아보기
 description: AlphaFold2에 대한 자세한 설명과 단상
-date: 2021-08-19
+date: 2021-08-18
 
 authors:
   - name: Dohoon Lee
