@@ -21,6 +21,7 @@ d-article {
   border-top-color: #e8e8e8 !important;
   a, p, h1, h2, h3, h4, h5, h6, li, table {
     color: var(--global-text-color) !important;
+    font-family: "Noto Sans KR";
   }
   a, h1, h2, hr {
     border-bottom-color: $grey-color-light !important;
