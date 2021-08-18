@@ -2,13 +2,14 @@
 layout: about
 title: about
 permalink: /
-description: Bioinformatics researcher. Currently at Bioinformatics Institute, Seoul National University, South Korea.
+description: Postdoctoral fellow at Bioinformatics Institute, Seoul National University, South Korea.
 
 profile:
   align: right
   image: profile.jpg
   address: >
-    <p>220-653, Seoul National University</p>
+    <p>220-653</p>
+    <p>Seoul National University</p>
     <p>1 Gwanak-ro, Gwanak-gu</p>
     <p>Seoul 08826, Republic of Korea</p>
 
