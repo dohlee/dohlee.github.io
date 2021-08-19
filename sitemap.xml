@@ -1,28 +1,228 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
+  
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
+      <loc>https://dohlee.github.io/blog/2021/about-alphafold2-6-loss-function/</loc>
+      
+        <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+      
 
-      {% if post.sitemap.changefreq == null %}
+      
         <changefreq>daily</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
+      
 
-      {% if post.sitemap.priority == null %}
+      
           <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
+      
 
     </url>
-  {% endfor %}
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2021/about-alphafold2-5-structure-module/</loc>
+      
+        <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2021/about-alphafold2-4-evoformer/</loc>
+      
+        <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2021/about-alphafold2-3-input-embedding/</loc>
+      
+        <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2021/about-alphafold2-2-evoformer/</loc>
+      
+        <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2021/about-alphafold2-1-intro/</loc>
+      
+        <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2021/distill/</loc>
+      
+        <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2020/github-metadata/</loc>
+      
+        <lastmod>2020-09-28T21:01:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2020/twitter/</loc>
+      
+        <lastmod>2020-09-28T15:12:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2015/comments/</loc>
+      
+        <lastmod>2015-10-20T15:59:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2015/math/</loc>
+      
+        <lastmod>2015-10-20T15:12:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2015/code/</loc>
+      
+        <lastmod>2015-07-15T15:09:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2015/images/</loc>
+      
+        <lastmod>2015-05-15T21:01:00+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://dohlee.github.io/blog/2015/formatting-and-links/</loc>
+      
+        <lastmod>2015-03-15T16:40:16+00:00</lastmod>
+      
+
+      
+        <changefreq>daily</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
 </urlset>

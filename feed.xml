@@ -1,29 +1,181 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-	<lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
-	{% for post in site.posts limit:10 %}
+    <title></title>
+    <description>Bioinformatics, Epigenomics, and AI researches by Dohoon Lee.
+</description>
+    <link>https://dohlee.github.io</link>
+    <atom:link href="https://dohlee.github.io/feed.xml" rel="self" type="application/rss+xml" />
+	<lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate>
+	
 	<item>
-		<title>{{ post.title | xml_escape }}</title>
-        {% if post.author.name %}
-            <dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-        {% endif %}
-        {% if post.excerpt %}
-            <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-            <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+		<title>AlphaFold2 톺아보기 - (6) Loss function과 auxiliary heads</title>
+        
+        
+            <description>&lt;h2 id=&quot;alphafold2&quot;&gt;AlphaFold2&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2021/about-alphafold2-6-loss-function/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2021/about-alphafold2-6-loss-function/</guid>
       </item>
-    {% endfor %}
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (5) Structure module</title>
+        
+        
+            <description>&lt;h2 id=&quot;alphafold2&quot;&gt;AlphaFold2&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2021/about-alphafold2-5-structure-module/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2021/about-alphafold2-5-structure-module/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (4) Evoformer</title>
+        
+        
+            <description>&lt;h2 id=&quot;alphafold2&quot;&gt;AlphaFold2&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2021/about-alphafold2-4-evoformer/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2021/about-alphafold2-4-evoformer/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (3) Input embedding</title>
+        
+        
+            <description>&lt;h2 id=&quot;input-embedding&quot;&gt;Input embedding&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2021/about-alphafold2-3-input-embedding/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2021/about-alphafold2-3-input-embedding/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (2) 개요</title>
+        
+        
+            <description>&lt;h2 id=&quot;alphafold2&quot;&gt;AlphaFold2&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2021/about-alphafold2-2-evoformer/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2021/about-alphafold2-2-evoformer/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (1) 들어가며</title>
+        
+        
+            <description>&lt;h2 id=&quot;들어가며&quot;&gt;들어가며&lt;/h2&gt;
+</description>
+        
+        <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2021/about-alphafold2-1-intro/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2021/about-alphafold2-1-intro/</guid>
+      </item>
+    
+	<item>
+		<title>a distill-style blog post</title>
+        
+        
+            <description>&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;
+Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default.
+If you are interested in correctly adding dark mode support for distill, please open &lt;a href=&quot;https://github.com/alshedivat/al-folio/discussions&quot;&gt;a discussion&lt;/a&gt; and let us know.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2021/distill/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2021/distill/</guid>
+      </item>
+    
+	<item>
+		<title>a post with github metadata</title>
+        
+        
+            <description>&lt;p&gt;A sample blog page that demonstrates the accessing of github meta data.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-github-metadata-do&quot;&gt;What does Github-MetaData do?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Propagates the site.github namespace with repository metadata&lt;/li&gt;
+  &lt;li&gt;Setting site variables :
+    &lt;ul&gt;
+      &lt;li&gt;site.title&lt;/li&gt;
+      &lt;li&gt;site.description&lt;/li&gt;
+      &lt;li&gt;site.url&lt;/li&gt;
+      &lt;li&gt;site.baseurl&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Accessing the metadata - duh.&lt;/li&gt;
+  &lt;li&gt;Generating edittable links.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;additional-reading&quot;&gt;Additional Reading&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;If you’re recieving incorrect/missing data, you may need to perform a Github API&lt;a href=&quot;https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md&quot;&gt; authentication&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Go through this &lt;a href=&quot;https://jekyll.github.io/github-metadata/&quot; target=&quot;blank&quot;&gt;README&lt;/a&gt; for more details on the topic.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md&quot;&gt;This page&lt;/a&gt; highlights all the feilds you can access with github-metadata.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;example-metadata&quot;&gt;Example MetaData&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Host Name :&lt;/li&gt;
+  &lt;li&gt;URL :&lt;/li&gt;
+  &lt;li&gt;BaseURL :&lt;/li&gt;
+  &lt;li&gt;Archived :&lt;/li&gt;
+  &lt;li&gt;Contributors :&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        
+        <pubDate>Mon, 28 Sep 2020 21:01:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2020/github-metadata/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2020/github-metadata/</guid>
+      </item>
+    
+	<item>
+		<title>a post with twitter</title>
+        
+        
+            <description>&lt;p&gt;A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc.&lt;/p&gt;
+
+&lt;h1 id=&quot;tweet&quot;&gt;Tweet&lt;/h1&gt;
+&lt;p&gt;An example of displaying a tweet:&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;sv&quot; dir=&quot;ltr&quot;&gt;jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API &lt;a href=&quot;http://t.co/m4EIQPM9h4&quot;&gt;http://t.co/m4EIQPM9h4&lt;/a&gt;&lt;/p&gt;&amp;mdash; RubyGems (@rubygems) &lt;a href=&quot;https://twitter.com/rubygems/status/518821243320287232?ref_src=twsrc%5Etfw&quot;&gt;October 5, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;timeline&quot;&gt;Timeline&lt;/h1&gt;
+&lt;p&gt;An example of pulling from a timeline:&lt;/p&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;a class=&quot;twitter-timeline&quot; data-width=&quot;500&quot; data-tweet-limit=&quot;3&quot; href=&quot;https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw&quot;&gt;Tweets by jekyllrb&lt;/a&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;additional-details&quot;&gt;Additional Details&lt;/h1&gt;
+&lt;p&gt;For more details on using the plugin visit: &lt;a href=&quot;https://github.com/rob-murray/jekyll-twitter-plugin&quot; target=&quot;\_blank&quot;&gt;jekyll-twitter-plugin&lt;/a&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 28 Sep 2020 15:12:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2020/twitter/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2020/twitter/</guid>
+      </item>
+    
+	<item>
+		<title>a post with comments</title>
+        
+        
+            <description>&lt;p&gt;This post shows how to add DISQUS comments.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 20 Oct 2015 15:59:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2015/comments/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2015/comments/</guid>
+      </item>
+    
   </channel>
 </rss>
