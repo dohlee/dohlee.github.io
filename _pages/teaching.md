@@ -2,9 +2,11 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: A growing collection of your cool projects.
+description: Teaching materials.
 nav: true
-display_categories: [work, fun]
+display_categories: [
+    Machine Learning in Bioinformatics (2021 Spring),
+]
 horizontal: false
 ---
 <div class="projects">
@@ -34,7 +36,7 @@ horizontal: false
 
   {% else %}
   <!-- Display projects without categories -->
-    {% assign sorted_projects = site.projects | sort: "importance" %}
+    {% assign sorted_projects = site.teaching | sort: "importance" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
       <div class="container">

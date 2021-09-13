@@ -1,9 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+title: PRISM
+description: a computational tool for the detection of epigenetic subclones from DNA methylation
+img: /assets/img/prism_logo.png
+github: https://github.com/dohlee/prism
+github_stars: 5
+importance: 1
 category: work
 ---
 

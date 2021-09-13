@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
-category: work
+title: Profile HMM
+description: a gentle introduction to profile HMM
+img: /assets/img/1_teaching.png
+importance: 1
+category: Machine Learning in Bioinformatics (2021 Spring)
 ---
 
 Every project has a beautiful feature showcase page.
