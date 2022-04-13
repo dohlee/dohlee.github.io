@@ -1,11 +1,11 @@
 ---
 layout: page
-title: PRISM
-description: a computational tool for the detection of epigenetic subclones from DNA methylation
-img: /assets/img/prism_logo.png
-github: https://github.com/dohlee/prism
-github_stars: 5
-importance: 3
+title: BioVLAB-Cancer-Pharmacogenomics 
+description: a cloud-based application for tumor heterogeneity-aware pharmacogenomics analyses 
+# img: /assets/img/chromoformer-excerpt.png
+# github: https://github.com/dohlee/chromoformer
+# github_stars: 5
+importance: 6
 category: research
 ---
 

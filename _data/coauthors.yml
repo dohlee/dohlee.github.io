@@ -25,3 +25,42 @@
   - firstname: ["Sangseon", "S. S.", "S."]
     url: https://sangseonlee.com
 
+"Kim":
+  - firstname: ["Sun", "S."]
+    url: https://scholar.google.com/citations?user=lI_oWS8AAAAJ&hl=ko&oi=sra
+
+"Jo":
+  - firstname: ["Kyuri"]
+    url: https://scholar.google.com/citations?user=1KvppFIAAAAJ&hl=ko
+
+"Jung":
+  - firstname: ["Inuk"]
+    url: https://scholar.google.com/citations?user=zVRA_KsAAAAJ&hl=ko
+
+"Yang":
+  - firstname: ["Jeewon"]
+    url: https://scholar.google.com/citations?user=nRhYDtwAAAAJ&hl=ko&authuser=2
+
+"Kang":
+  - firstname: ["Minji"]
+    url: https://scholar.google.com/citations?user=h53AWGsAAAAJ&hl=ko&authuser=2
+
+"Park":
+  - firstname: ["Sungjoon"]
+    url: https://scholar.google.com/citations?user=jN0nExwAAAAJ&hl=ko&authuser=2
+
+"Jeong":
+  - firstname: ["Dabin"]
+    url: https://scholar.google.com/citations?user=Ne2p354AAAAJ&hl=ko&authuser=2
+
+"Sung":
+  - firstname: ["Inyoung"]
+    url: https://scholar.google.com/citations?user=3DiLivoAAAAJ&hl=ko&authuser=2
+
+"Oh":
+  - firstname: ["Minsik"]
+    url: https://scholar.google.com/citations?user=nTDBvrkAAAAJ&hl=ko&authuser=2
+
+"Koo":
+  - firstname: ["Bonil"]
+    url: https://scholar.google.com/citations?user=_coTdy8AAAAJ&hl=ko

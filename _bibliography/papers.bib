@@ -1,6 +1,25 @@
 ---
 ---
 
+@article{lee2022metheor,
+    bibtex_show={true},
+    title={Metheor: Ultrafast DNA methylation heterogeneity calculation from bisulfite read alignments},
+    author={Lee, Dohoon and Koo, Bonil and Yang, Jeewon and Kim, Sun},
+    abstract={
+<b>Motivation:</b> Phased DNA methylation states within bisulfite sequencing reads are valuable source of information that can be used to estimate epigenetic diversity across cells as well as epigenomic instability in individual cells.
+Various measures capturing the heterogeneity of DNA methylation states have been proposed for a  decade.
+However, in routine analyses on DNA methylation, this heterogeneity is often overlooked by computing average methylation levels at CpG sites.
+In this study, to facilitate the application of the DNA methylation heterogeneity measures in downstream epigenomic analyses, we present a Rust-based, extremely fast and lightweight bioinformatics toolkit called <b>Metheor</b>.<br/><br/>
+<b>Results:</b> We benchmark the performance of Metheor against existing code implementation for DNA methylation heterogeneity measures in three different scenarios of simulated bisulfite sequencing datasets.
+Metheor was shown to dramatically reduce the execution time up to 300-fold and memory footprint up to 60-fold, while producing the same results with the original implementation.<br/><br/>
+<b>Availability:</b> Source code for Metheor is at <a href='https://github.com/dohlee/metheor'>https://github.com/dohlee/metheor</a> and is freely available for non-commercial users.<br/>
+    },
+    journal={Bioinformatics (submitted)},
+    publisher={Oxford University Press},
+    year={2022},
+    code={https://github.com/dohlee/metheor},
+}
+
 @article{lee2019prism,
   abbr={ISMB2019},
   bibtex_show={true},
@@ -96,6 +115,8 @@
   journal = {bioRxiv},
   publisher = {Cold Spring Harbor Laboratory},
   html = {https://www.biorxiv.org/content/early/2021/12/30/2021.12.30.472333},
+  code = {https://github.com/dohlee/chromoformer},
+  selected={true},
   year = {2021}
 }
 

@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral fellow at Bioinformatics Institute, Seoul National University, South Korea.
+description: >
+    Postdoctoral fellow in computational biology/bioinformatics,<br/ >Bioinformatics Institute and BK21 FOUR Intelligence Computing, Seoul National University, South Korea.
 
 profile:
   align: right

@@ -2,7 +2,7 @@
 layout: distill
 title: AlphaFold2 톺아보기 - (4) Evoformer
 description: AlphaFold2에 대한 설명과 단상
-date: 2021-10-01
+date: 2022-05-01
 
 authors:
   - name: Dohoon Lee

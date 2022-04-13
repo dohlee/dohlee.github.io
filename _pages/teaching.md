@@ -7,7 +7,7 @@ nav: true
 display_categories: [
     Machine Learning in Bioinformatics (2021 Spring),
 ]
-horizontal: false
+horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

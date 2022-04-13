@@ -1,11 +1,11 @@
 ---
 layout: page
-title: PRISM
-description: a computational tool for the detection of epigenetic subclones from DNA methylation
-img: /assets/img/prism_logo.png
-github: https://github.com/dohlee/prism
-github_stars: 5
-importance: 3
+title: Metheor
+description: a Rust-based, ultrafast software for methylation heterogeneity computation from bisulfite read alignments
+img: /assets/img/metheor-excerpt.png
+github: https://github.com/dohlee/metheor
+github_stars: 4
+importance: 2
 category: research
 ---
 
