@@ -6,6 +6,7 @@ description: Teaching materials.
 nav: true
 display_categories: [
     Machine Learning in Bioinformatics (2021 Spring),
+    Lectures on AI-driven Drug Discovery (LAIDD)
 ]
 horizontal: true
 ---
