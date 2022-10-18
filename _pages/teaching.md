@@ -1,12 +1,13 @@
 ---
 layout: page
-title: teaching
+title: teaching/talks
 permalink: /teaching/
-description: Teaching materials.
+description: my talks and teaching experiences
 nav: true
 display_categories: [
     Machine Learning in Bioinformatics (2021 Spring),
-    Lectures on AI-driven Drug Discovery (LAIDD)
+    Lectures on AI-driven Drug Discovery (LAIDD),
+    Others,
 ]
 horizontal: true
 ---
