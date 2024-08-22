@@ -1,29 +1,84 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-	<lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
-	{% for post in site.posts limit:10 %}
+    <title></title>
+    <description>Bioinformatics, Epigenomics, and AI researches by Dohoon Lee.
+</description>
+    <link>https://dohlee.github.io</link>
+    <atom:link href="https://dohlee.github.io/feed.xml" rel="self" type="application/rss+xml" />
+	<lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+	
 	<item>
-		<title>{{ post.title | xml_escape }}</title>
-        {% if post.author.name %}
-            <dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-        {% endif %}
-        {% if post.excerpt %}
-            <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-            <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+		<title>AlphaFold2 톺아보기 - (6) Loss function과 auxiliary heads</title>
+        
+        
+            <description>&lt;h2 id=&quot;alphafold2&quot;&gt;AlphaFold2&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2023/about-alphafold2-6-loss-function/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2023/about-alphafold2-6-loss-function/</guid>
       </item>
-    {% endfor %}
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (5) Structure module</title>
+        
+        
+            <description>&lt;h2 id=&quot;alphafold2&quot;&gt;AlphaFold2&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2023/about-alphafold2-5-structure-module/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2023/about-alphafold2-5-structure-module/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (4) Evoformer</title>
+        
+        
+            <description>&lt;h2 id=&quot;alphafold2&quot;&gt;AlphaFold2&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2023/about-alphafold2-4-evoformer/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2023/about-alphafold2-4-evoformer/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (3) Input embedding</title>
+        
+        
+            <description>&lt;h2 id=&quot;input-embedding&quot;&gt;Input embedding&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2023/about-alphafold2-3-input-embedding/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2023/about-alphafold2-3-input-embedding/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (2) 개요</title>
+        
+        
+            <description>&lt;p&gt;본 포스트에서는 AlphaFold2의 핵심 아이디어와, 그 아이디어를 딥 러닝 모델에 어떻게 녹여내었는지를 개괄적으로 설명합니다. 딥 러닝 모델의 구현을 비롯한 보다 자세한 내용은 추후 게시될 포스트들에서 다루고자 하며, 여기서는 큰 흐름을 먼저 다루어 전체적인 이해를 돕고자 합니다. 이후 다룰 복잡한 내용들에 매몰되어 헤메거나 막힐 때마다, 다시금 모델의 전체적인 그림을 보고 큰 흐름을 잡는 길잡이로서 이 글이 활용되었으면 좋겠습니다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2023/about-alphafold2-2-evoformer/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2023/about-alphafold2-2-evoformer/</guid>
+      </item>
+    
+	<item>
+		<title>AlphaFold2 톺아보기 - (1) 들어가며</title>
+        
+        
+            <description>&lt;h2 id=&quot;들어가며&quot;&gt;들어가며&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        <link>https://dohlee.github.io/blog/2023/about-alphafold2-1-intro/</link>
+        <guid isPermaLink="true">https://dohlee.github.io/blog/2023/about-alphafold2-1-intro/</guid>
+      </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,4448 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  Dohoon  Lee
+
+
+  | publications
+
+</title>
+<meta name="description" content="Bioinformatics, Epigenomics, and AI researches by Dohoon Lee.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Noto+Sans+KR:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧬</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/publications/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://dohlee.github.io/">
+       <span class="font-weight-bold">Dohoon</span>   Lee
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+              <!-- <a class="nav-link" href="/blog/"> -->
+              <a class="nav-link" href="https://www.ai-bio.info">
+              blog <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+              
+              </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+                <span class="sr-only">(current)</span>
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <!-- <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                submenus
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="/publications/">publications</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="/projects/">projects</a>
+              
+              
+              </div>
+          </li> -->
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching/talks
+                
+              </a>
+          </li>
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">publications</h1>
+    <p class="post-description">publications by categories in reversed chronological order.</p>
+  </header>
+
+  <article>
+    <div class="publications">
+
+
+  <h2 class="year">2024</h2>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="hwang2024human" class="col-sm-8">
+    
+      <div class="title">Human cytomegalovirus harnesses host L1 retrotransposon for efficient replication</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hwang, Sung-Yeon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Hyewon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Jeong, Jiseok,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Kiwon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Jinuk,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Choi, Hee-Jung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Eunjung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhao, Boxun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Denisko, Danielle,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Junhyun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Jeong, Dongjoon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Sehong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Ahn, Kwangseog
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Nature Communications</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hwang2024human</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Human cytomegalovirus harnesses host L1 retrotransposon for efficient replication}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hwang, Sung-Yeon and Kim, Hyewon and Lee, Dohoon and Jeong, Jiseok and Park, Kiwon and Kim, Jinuk and Choi, Hee-Jung and Kim, Sun and Lee, Eunjung and Zhao, Boxun and Denisko, Danielle and Park, Junhyun and Jeong, Dongjoon and Park, Sehong and Ahn, Kwangseog}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nature Communications}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Nature}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lee2024multilayered" class="col-sm-8">
+    
+      <div class="title">Multi-layered knowledge graph neural network reveals pathway-level agreement of three breast cancer multi-gene assays</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sangseonlee.com" target="_blank">Lee, Sangseon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Joonhyeong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://qkrdmsghk.github.io" target="_blank">Piao, Yinhua</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Danyeong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Computational and Structural Biotechnology Journal</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2024multilayered</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Multi-layered knowledge graph neural network reveals pathway-level agreement of three breast cancer multi-gene assays}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Sangseon and Park, Joonhyeong and Piao, Yinhua and Lee, Dohoon and Lee, Danyeong and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Computational and Structural Biotechnology Journal}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="rafi2024evaluation" class="col-sm-8">
+    
+      <div class="title">Evaluation and optimization of sequence-based gene regulatory deep learning models</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Rafi, Abdul Muntakim,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Penzar, Dmitry,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nogina, Daria,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Vaishnav, Eeshit Dhaval,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Danyeong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Nayeon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Sangyeup,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Meshcheryakov, Georgy,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lando, Andrey,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and others, 
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Nature Biotechnology</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">rafi2024evaluation</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Evaluation and optimization of sequence-based gene regulatory deep learning models}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Rafi, Abdul Muntakim and Penzar, Dmitry and Nogina, Daria and Lee, Dohoon and Vaishnav, Eeshit Dhaval and Lee, Danyeong and Kim, Nayeon and Kim, Sangyeup and Meshcheryakov, Georgy and Lando, Andrey and others}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nature Biotechnology}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Nature}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="park2024human" class="col-sm-8">
+    
+      <div class="title">Human immunodeficiency virus-1 induces and targets host genomic R-loops for viral genome integration</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Kiwon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Jeong, Jiseok,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Sungwon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Ahn, Kwangseog
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>eLife</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://elifesciences.org/reviewed-preprints/97348" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">park2024human</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Human immunodeficiency virus-1 induces and targets host genomic R-loops for viral genome integration}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Park, Kiwon and Lee, Dohoon and Jeong, Jiseok and Lee, Sungwon and Kim, Sun and Ahn, Kwangseog}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{eLife}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.7554/eLife.97348.1}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://elifesciences.org/reviewed-preprints/97348}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lee2024disco" class="col-sm-8">
+    
+      <div class="title">DISCO: Diffusion Schrödinger bridge for molecular conformer optimization</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Danyeong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Bang, Dongmin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Proceedings of the AAAI conference on artificial intelligence</em>
+      
+      
+        2024
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29238" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2024disco</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{DISCO: Diffusion Schrödinger bridge for molecular conformer optimization}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Danyeong and Lee, Dohoon and Bang, Dongmin and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Proceedings of the AAAI conference on artificial intelligence}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1609/aaai.v38i12.29238}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Cold Spring Harbor Laboratory}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ojs.aaai.org/index.php/AAAI/article/view/29238}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="yang2023deep" class="col-sm-8">
+    
+      <div class="title">Deep learning-based survival prediction using DNA methylation-derived 3D genomic information</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=nRhYDtwAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Yang, Jeewon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=_coTdy8AAAAJ&amp;hl=ko" target="_blank">Koo, Bonil</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>bioRxiv</em>
+      
+      
+        2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.biorxiv.org/content/10.1101/2023.06.10.544450.abstract" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">yang2023deep</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Deep learning-based survival prediction using DNA methylation-derived 3D genomic information}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yang, Jeewon and Lee, Dohoon and Koo, Bonil and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{bioRxiv}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1101/2023.06.10.544450}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Cold Spring Harbor Laboratory}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.biorxiv.org/content/10.1101/2023.06.10.544450.abstract}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="rafi2023evaluation" class="col-sm-8">
+    
+      <div class="title">Evaluation and optimization of sequence-based gene regulatory deep learning models</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Rafi, Abdul Muntakim,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Penzar, Dmitry,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nogina, Daria,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Vaishnav, Eeshit Dhaval,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Danyeong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Nayeon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Sangyeup,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Meshcheryakov, Georgy,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lando, Andrey,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and others, 
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>bioRxiv</em>
+      
+      
+        2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.biorxiv.org/content/10.1101/2023.04.26.538471v1.abstract" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">rafi2023evaluation</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Evaluation and optimization of sequence-based gene regulatory deep learning models}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Rafi, Abdul Muntakim and Penzar, Dmitry and Nogina, Daria and Lee, Dohoon and Vaishnav, Eeshit Dhaval and Lee, Danyeong and Kim, Nayeon and Kim, Sangyeup and Meshcheryakov, Georgy and Lando, Andrey and others}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{bioRxiv}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1101/2023.04.26.538471}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Cold Spring Harbor Laboratory}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.biorxiv.org/content/10.1101/2023.04.26.538471v1.abstract}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lee2023dnmt3a" class="col-sm-8">
+    
+      <div class="title">AMLs harboring DNMT3A-destabilizing variants show increased intratumor DNA methylation heterogeneity at bivalent chromatin domains</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=_coTdy8AAAAJ&amp;hl=ko" target="_blank">Koo, Bonil</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Seok-Hyun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Byun, Jamin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hong, Junshik,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Shin, Dong-Yeop,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Sun, Choong-Hyun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Song, Ji-Joon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Jaesung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jaiswal, Siddhartha,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Yoon, Sung-soo,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Koh, Youngil
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>bioRxiv</em>
+      
+      
+        2023
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.biorxiv.org/content/early/2023/02/14/2023.02.13.528223" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2023dnmt3a</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Dohoon and Koo, Bonil and Kim, Seok-Hyun and Byun, Jamin and Hong, Junshik and Shin, Dong-Yeop and Sun, Choong-Hyun and Song, Ji-Joon and Kim, Jaesung and Jaiswal, Siddhartha and Yoon, Sung-soo and Kim, Sun and Koh, Youngil}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{AMLs harboring DNMT3A-destabilizing variants show increased intratumor DNA methylation heterogeneity at bivalent chromatin domains}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{bioRxiv}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1101/2023.02.13.528223}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Cold Spring Harbor Laboratory}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">elocation-id</span> <span class="p">=</span> <span class="s">{2023.02.13.528223}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.biorxiv.org/content/early/2023/02/14/2023.02.13.528223}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lee2022chromoformer" class="col-sm-8">
+    
+      <div class="title">Learning the histone codes with large genomic windows and three-dimensional chromatin interactions using transformer</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=nRhYDtwAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Yang, Jeewon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Nature Communications</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.nature.com/articles/s41467-022-34152-5" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/dohlee/chromoformer" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+      <a href="https://youtu.be/PfKabJ7iHJo" class="btn btn-sm z-depth-0" role="button" target="_blank">Presentation</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2022chromoformer</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Dohoon and Yang, Jeewon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Learning the histone codes with large genomic windows and three-dimensional chromatin interactions using transformer}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nature Communications}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1038/s41467-022-34152-5}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer Nature}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/dohlee/chromoformer}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.nature.com/articles/s41467-022-34152-5}</span><span class="p">,</span>
+  <span class="na">presentation</span> <span class="p">=</span> <span class="s">{https://youtu.be/PfKabJ7iHJo}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="choi2022clonal" class="col-sm-8">
+    
+      <div class="title">Single-cell transcriptome analyses reveal distinct gene expression signatures of severe COVID-19 in the presence of clonal hematopoiesis</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Choi, Baekgyu,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kang, Chang Kyung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Seongwan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Andrew J.,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Ko, Yuji,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kang, Suk-Jo,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kang, Kyuho,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Koh, Youngil,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  and Jung, Inkyung
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Experimental and Molecular Medicine</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.nature.com/articles/s12276-022-00866-1" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">choi2022clonal</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Choi, Baekgyu and Kang, Chang Kyung and Park, Seongwan and Lee, Dohoon and Lee, Andrew J. and Ko, Yuji and Kang, Suk-Jo and Kang, Kyuho and Kim, Sun and Koh, Youngil and Jung, Inkyung}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Single-cell transcriptome analyses reveal distinct gene expression signatures of severe COVID-19 in the presence of clonal hematopoiesis}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Experimental and Molecular Medicine}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1038/s12276-022-00866-1}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Nature Publishing Group}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.nature.com/articles/s12276-022-00866-1}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lee2022metheor" class="col-sm-8">
+    
+      <div class="title">Metheor: Ultrafast DNA methylation heterogeneity calculation from bisulfite read alignments</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=_coTdy8AAAAJ&amp;hl=ko" target="_blank">Koo, Bonil</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=nRhYDtwAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Yang, Jeewon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>bioRxiv</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.biorxiv.org/content/10.1101/2022.07.20.500893v1" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/dohlee/metheor" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2022metheor</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Dohoon and Koo, Bonil and Yang, Jeewon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Metheor: Ultrafast DNA methylation heterogeneity calculation from bisulfite read alignments}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{bioRxiv}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1101/2022.07.20.500893}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Cold Spring Harbor Laboratory}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/dohlee/metheor}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.biorxiv.org/content/10.1101/2022.07.20.500893v1}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="koo2022risk" class="col-sm-8">
+    
+      <div class="title">Risk Stratification for Breast Cancer Patient by Simultaneous Learning of Molecular Subtype and Survival Outcome Using Genetic Algorithm-Based Gene Set Selection</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=_coTdy8AAAAJ&amp;hl=ko" target="_blank">Koo, Bonil</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sangseonlee.com" target="_blank">Lee, Sangseon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=3DiLivoAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Sung, Inyoung</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  and Lee, Sunho
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Cancers</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.mdpi.com/2072-6694/14/17/4120" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/dohlee/adipogenesis-methylation" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">koo2022risk</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Koo, Bonil and Lee, Dohoon and Lee, Sangseon and Sung, Inyoung and Kim, Sun and Lee, Sunho}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Risk Stratification for Breast Cancer Patient by Simultaneous Learning of Molecular Subtype and Survival Outcome Using Genetic Algorithm-Based Gene Set Selection}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Cancers}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/dohlee/adipogenesis-methylation}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.mdpi.com/2072-6694/14/17/4120}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="park2022tet3" class="col-sm-8">
+    
+      <div class="title">Targeted erasure of DNA methylation by TET3 drives adipogenic reprogramming and differentiation</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Jeu,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Ham, Seokjin,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Oh, Jiyoung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Noh, Jung-Ran,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Yun Kyung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Yoon Jeong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Gung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Han, Sang Mun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Han, Ji Seul,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Ye Young,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jeon, Yong Geun,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nahmgoong, Han,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Shin, Kyung Cheul,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Sung Min,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Choi, Sung Hee,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Lee, Chul-Ho,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Park, Jiyoung,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Roh, Tae Young,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  and Kim, Jae Bum
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Nature Metabolism</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.nature.com/articles/s42255-022-00597-7" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">park2022tet3</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Targeted erasure of DNA methylation by TET3 drives adipogenic reprogramming and differentiation}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Park, Jeu and Lee, Dohoon and Ham, Seokjin and Oh, Jiyoung and Noh, Jung-Ran and Lee, Yun Kyung and Park, Yoon Jeong and Lee, Gung and Han, Sang Mun and Han, Ji Seul and Kim, Ye Young and Jeon, Yong Geun and Nahmgoong, Han and Shin, Kyung Cheul and Kim, Sung Min and Choi, Sung Hee and Lee, Chul-Ho and Park, Jiyoung and Roh, Tae Young and Kim, Sun and Kim, Jae Bum}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nature Metabolism}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Nature Publishing Group}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.nature.com/articles/s42255-022-00597-7}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="piao2021sparse" class="col-sm-8">
+    
+      <div class="title">Sparse Structure Learning via Graph Neural Networks for Inductive Document Classification</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://qkrdmsghk.github.io" target="_blank">Piao, Yinhua</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sangseonlee.com" target="_blank">Lee, Sangseon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Proceedings of the AAAI conference on artificial intelligence</em>
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+      <a href="http://arxiv.org/abs/2112.06386" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">piao2021sparse</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Sparse Structure Learning via Graph Neural Networks for Inductive Document Classification}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Piao, Yinhua and Lee, Sangseon and Lee, Dohoon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Proceedings of the AAAI conference on artificial intelligence}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2112.06386}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lee2021towards" class="col-sm-8">
+    
+      <div class="title">Towards multi-omics characterization of tumor heterogeneity: a comprehensive review of statistical and machine learning approaches</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=DEqNvFYAAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Park, Youngjune</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Briefings in bioinformatics</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://pubmed.ncbi.nlm.nih.gov/34020548/" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+      
+      <a href="/assets/pdf/" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2021towards</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Towards multi-omics characterization of tumor heterogeneity: a comprehensive review of statistical and machine learning approaches}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Dohoon and Park, Youngjune and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Briefings in bioinformatics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{22}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{bbaa188}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Oxford University Press}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://pubmed.ncbi.nlm.nih.gov/34020548/}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="jo2021inferring" class="col-sm-8">
+    
+      <div class="title">Inferring transcriptomic cell states and transitions only from time series transcriptome data</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=1KvppFIAAAAJ&amp;hl=ko" target="_blank">Jo, Kyuri</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=3DiLivoAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Sung, Inyoung</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jang, Hyuksoon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Scientific reports</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8206345/" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">jo2021inferring</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Inferring transcriptomic cell states and transitions only from time series transcriptome data}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Jo, Kyuri and Sung, Inyoung and Lee, Dohoon and Jang, Hyuksoon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Scientific reports}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--13}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Nature Publishing Group}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8206345/}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="park2021biovlab" class="col-sm-8">
+    
+      <div class="title">BioVLAB-Cancer-Pharmacogenomics: tumor heterogeneity and pharmacogenomics analysis of multi-omics data from tumor on the cloud</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=jN0nExwAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Park, Sungjoon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  Kim, Youngkuk,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lim, Sangsoo,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Chae, Heejoon,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Bioinformatics</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://pubmed.ncbi.nlm.nih.gov/34185062/" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">park2021biovlab</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{BioVLAB-Cancer-Pharmacogenomics: tumor heterogeneity and pharmacogenomics analysis of multi-omics data from tumor on the cloud}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Park, Sungjoon and Lee, Dohoon and Kim, Youngkuk and Lim, Sangsoo and Chae, Heejoon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Bioinformatics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://pubmed.ncbi.nlm.nih.gov/34185062/}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="lee2021knowledge" class="col-sm-8">
+    
+      <div class="title">Knowledge-guided artificial intelligence technologies for decoding complex multiomics interactions in cells</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Clinical and experimental pediatrics</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.e-cep.org/journal/view.php?doi=10.3345/cep.2021.01438" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+      
+      <a href="https://www.e-cep.org/upload/pdf/cep-2021-01438.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2021knowledge</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Knowledge-guided artificial intelligence technologies for decoding complex multiomics interactions in cells}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Dohoon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Clinical and experimental pediatrics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.e-cep.org/journal/view.php?doi=10.3345/cep.2021.01438}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://www.e-cep.org/upload/pdf/cep-2021-01438.pdf}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="Lee2021.12.30.472333" class="col-sm-8">
+    
+      <div class="title">Learning the histone codes of gene regulation with large genomic windows and three-dimensional chromatin interactions using transformer</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=nRhYDtwAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Yang, Jeewon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>bioRxiv</em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.biorxiv.org/content/early/2021/12/30/2021.12.30.472333" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+      <a href="https://github.com/dohlee/chromoformer" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+      <a href="https://youtu.be/PfKabJ7iHJo" class="btn btn-sm z-depth-0" role="button" target="_blank">Presentation</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Lee2021.12.30.472333</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Learning the histone codes of gene regulation with large genomic windows and three-dimensional chromatin interactions using transformer}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Dohoon and Yang, Jeewon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1101/2021.12.30.472333}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{bioRxiv}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Cold Spring Harbor Laboratory}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.biorxiv.org/content/early/2021/12/30/2021.12.30.472333}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/dohlee/chromoformer}</span><span class="p">,</span>
+  <span class="na">presentation</span> <span class="p">=</span> <span class="s">{https://youtu.be/PfKabJ7iHJo}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="oh2020drim" class="col-sm-8">
+    
+      <div class="title">DRIM: A web-based system for investigating drug response at the molecular level by condition-specific multi-omics data integration</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=nTDBvrkAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Oh, Minsik</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=jN0nExwAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Park, Sungjoon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sangseonlee.com" target="_blank">Lee, Sangseon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Lim, Sangsoo,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=Ne2p354AAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Jeong, Dabin</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=1KvppFIAAAAJ&amp;hl=ko" target="_blank">Jo, Kyuri</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=zVRA_KsAAAAJ&amp;hl=ko" target="_blank">Jung, Inuk</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Frontiers in genetics</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7689278/" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">oh2020drim</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{DRIM: A web-based system for investigating drug response at the molecular level by condition-specific multi-omics data integration}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Oh, Minsik and Park, Sungjoon and Lee, Sangseon and Lee, Dohoon and Lim, Sangsoo and Jeong, Dabin and Jo, Kyuri and Jung, Inuk and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Frontiers in genetics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Frontiers}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7689278/}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="kang2020learning" class="col-sm-8">
+    
+      <div class="title">Learning cell-type-specific gene regulation mechanisms by multi-attention based deep learning with regulatory latent space</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://scholar.google.com/citations?user=h53AWGsAAAAJ&amp;hl=ko&amp;authuser=2" target="_blank">Kang, Minji</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sangseonlee.com" target="_blank">Lee, Sangseon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Frontiers in genetics</em>
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7561362/" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">kang2020learning</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Learning cell-type-specific gene regulation mechanisms by multi-attention based deep learning with regulatory latent space}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kang, Minji and Lee, Sangseon and Lee, Dohoon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Frontiers in genetics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{869}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Frontiers}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7561362/}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ISMB2019</abbr>
+    
+  
+  </div>
+
+  <div id="lee2019prism" class="col-sm-8">
+    
+      <div class="title">PRISM: methylation pattern-based, reference-free inference of subclonal makeup</div>
+      <div class="author">
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                <em>Lee, Dohoon</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://sangseonlee.com" target="_blank">Lee, Sangseon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://scholar.google.com/citations?user=lI_oWS8AAAAJ&amp;hl=ko&amp;oi=sra" target="_blank">Kim, Sun</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Bioinformatics</em>
+      
+      
+        2019
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6612819" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+      
+      <a href="/assets/pdf/" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://www.youtube.com/watch?v=Ii8YDjqNbL0" class="btn btn-sm z-depth-0" role="button" target="_blank">Presentation</a>
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lee2019prism</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{ISMB2019}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{PRISM: methylation pattern-based, reference-free inference of subclonal makeup}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, Dohoon and Lee, Sangseon and Kim, Sun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Bioinformatics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{35}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{14}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{i520--i529}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Oxford University Press}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6612819}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">presentation</span> <span class="p">=</span> <span class="s">{https://www.youtube.com/watch?v=Ii8YDjqNbL0}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright 2024 Dohoon  Lee.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
